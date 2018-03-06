@@ -1,0 +1,79 @@
+LOGIN PAIR
+https://www.mypair.com	
+
+Usuario: sala420
+Pass:    sala1885
+
+FTP
+sala420.pairserver.com
+sala420
+sala1885
+
+Signupkey:aa7d4e612b
+Account Number: 155449
+Hosting Server: sala420.pairserver.com
+
+
+LOGIN PAIRDomain
+https://www.pairdomains.com	
+
+Usuario: sala420d
+Pass:    sala1885d
+
+
+*******************
+
+MySQL Database
+
+Full Access Username
+Database Name:      sala420_remota
+Username:           sala420_2
+Password:           SNWiMUFH
+Server: 	    db67b.pair.com 
+
+*******************
+
+
+PANEL WORDPRESS
+http://www.sala420.com/wp-admin
+
+ADMINISTRADOR
+User: admin_sala420
+Pass: admin_sala_2542
+
+EDITOR
+User: editor_sala420
+Pass: editor_sala_1787
+
+
+*******************
+
+CASILLAS DE EMAIL
+https://rc.webmail.pair.com/
+
+info@sala420.com (X)
+sala1886
+
+prensa@sala420.com (X)
+sala1887
+
+producciones@sala420.com (X)
+sala1888
+
+talleres@sala420.com (X)
+sala1889
+
+boletin@sala420.com (X)
+sala1890
+
+
+*******************
+
+SESION CAM
+https://console.sessioncam.com/Console/Authentication/Index
+robertostringa@hotmail.com
+aideRat$10
+
+
+
+

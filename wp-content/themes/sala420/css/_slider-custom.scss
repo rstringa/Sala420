@@ -1,0 +1,110 @@
+/* SLIDER */
+
+.royalSlider img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+	
+}
+.visibleNearby {
+  width: 100%;
+  background: #141414;
+  color: #FFF;
+  padding-top: 0px;
+}
+.visibleNearby .rsGCaption {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 12px 0 16px;
+  background: #141414;
+  width: 100%;
+  position: static;
+  float: left;
+  left: auto;
+  bottom: auto;
+  text-align: center;
+}
+.visibleNearby .rsGCaption span {
+  display: block;
+  clear: both;
+  color: #bbb;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+
+/* Scaling transforms */
+.visibleNearby .rsSlide img {
+  opacity: 0.45;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+
+}
+.visibleNearby .rsActiveSlide img {
+  opacity: 1;
+
+}
+
+.rsDefault, .rsDefault .rsOverflow, .rsDefault .rsSlide, .rsDefault .rsVideoFrameHolder, .rsDefault .rsThumbs{ background:none;}
+#page-navigation { display: none; }
+.slider_inner { position:relative; }
+.btn_entradas { font-size:24px; position:absolute; bottom:30px; left:50%; transform:translateX(-50%); padding:15px 25px;}
+.btn_entradas .fa { font-size:inherit!important;}
+.slider_inner .sombra { position:absolute; bottom:0; left:0; width:100%; height:150px;
+	 background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.55) 55%,rgba(0,0,0,1) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.55) 55%,rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+	  }
+.royalSlider.rsAutoHeight, .rsAutoHeight .rsSlide { max-height:70vh;}
+
+.rsDefault .rsSlide {
+    background: rgba(0,0,0,1)!important;
+
+}
+
+
+.royalSlider .slider_inner { background-position:center center; background-size:cover; background-repeat:no-repeat; opacity:0.45;}
+.royalSlider .rsActiveSlide .slider_inner { opacity:1;}
+@media screen and (max-width:600px){
+.royalSlider.rsAutoHeight, .rsAutoHeight .rsSlide {  min-height:300px;} 	
+.royalSlider .slider_inner { background-color:#111; min-height:300px; background-size:contain;}
+.royalSlider .slider_inner .btn {}
+}
+
+.slider_container { background:#e5d400 url(img/slider-bg.png) repeat center center; background-size:20px 30px; padding:25px 0; margin-bottom:20px;}
+.rsDefault .rsBullets { background:none; bottom:-35px;line-height: 16px;}
+
+.rsDefault .rsBullet span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+	box-shadow: 0 1px 1px rgba(33,33,33,.65);
+    background: #111;}
+.rsDefault .rsBullet span:hover { background:darken($color-destacado,10%); cursor:pointer;}
+.rsDefault .rsBullet {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    padding: 0 10px;
+}
+.rsDefault .rsBullet.rsNavSelected span { background:$color-destacado;}	
+.rsDefault .rsArrow { background: rgba(0,0,0,.65); width:60px;}
+
+.rsDefault.rsHor .rsArrowIcn { 
+	opacity:.65;
+	transform:scale(0.5);     
+	width: 50px;
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -25px;}
+.rsDefault.rsHor .rsArrow:hover .rsArrowIcn {opacity:.9;}	
+.rsDefault.rsHor .rsArrowLeft .rsArrowIcn { background:transparent url(img/arrow-left.svg) no-repeat 0 0;}
+.rsDefault.rsHor .rsArrowRight .rsArrowIcn { background:transparent url(img/arrow-right.svg) no-repeat 0 0;}
+
+#slider.mascara { height:540px; overflow:hidden;}
+	
