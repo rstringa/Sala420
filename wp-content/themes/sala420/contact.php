@@ -38,8 +38,13 @@
 		
 		} elseif ( $_POST['area'] == 'prensa' ){
 		$mail->AddAddress("prensa@sala420.com");
+			
+		} elseif ( $_POST['area'] == 'tecnica' ){
+		$mail->AddAddress("tecnica@sala420.com");
 		
-		} else {
+		} 
+			
+		else {
 			
 		$mail->AddAddress("info@sala420.com");
 			

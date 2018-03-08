@@ -386,6 +386,7 @@ if (function_exists('rwmb_meta')) {
     <option value="taller">&Aacute;rea Talleres y Seminarios</option>
     <option value="produccion">&Aacute;rea Producción</option>
     <option value="prensa">&Aacute;rea Prensa</option>
+	<option value="tecnica">&Aacute;rea Técnica</option>
     <option value="director">Director Ruben Monreal</option>
    </select>
   </div>
